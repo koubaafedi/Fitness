@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2023 at 10:18 PM
+-- Generation Time: Jan 20, 2023 at 11:30 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -63,9 +63,9 @@ CREATE TABLE `tblbooking` (
 --
 
 INSERT INTO `tblbooking` (`id`, `userEmail`, `VehicleId`, `FromDate`, `ToDate`, `message`, `Status`, `PostingDate`) VALUES
-(1, 'test@gmail.com', 2, '22/06/2017', '25/06/2017', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco', 1, '2017-06-19 20:15:43'),
-(2, 'test@gmail.com', 3, '30/06/2017', '02/07/2017', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco', 2, '2017-06-26 20:15:43'),
-(3, 'test@gmail.com', 4, '02/07/2017', '07/07/2017', 'Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ', 0, '2017-06-26 21:10:06');
+(1, 'test@gmail.com', 2, '22/06/2017', '25/06/2017', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco', 1, '2022-06-19 20:15:43'),
+(2, 'test@gmail.com', 3, '30/06/2017', '02/07/2017', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco', 2, '2022-06-26 20:15:43'),
+(3, 'test@gmail.com', 4, '02/07/2017', '07/07/2017', 'Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ', 0, '2022-06-26 21:10:06');
 
 -- --------------------------------------------------------
 
@@ -85,7 +85,7 @@ CREATE TABLE `tblbrands` (
 --
 
 INSERT INTO `tblbrands` (`id`, `BrandName`, `CreationDate`, `UpdationDate`) VALUES
-(1, 'CGS ', '2017-06-18 16:24:34', '2023-01-20 21:08:28');
+(1, 'CGS ', '2022-06-18 16:24:34', '2023-01-20 22:22:11');
 
 -- --------------------------------------------------------
 
@@ -128,7 +128,7 @@ CREATE TABLE `tblcontactusquery` (
 --
 
 INSERT INTO `tblcontactusquery` (`id`, `name`, `EmailId`, `ContactNumber`, `Message`, `PostingDate`, `status`) VALUES
-(1, 'Harry Den', 'webhostingamigo@gmail.com', '2147483647', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum', '2017-06-18 10:03:07', 1);
+(1, 'Harry Den', 'webhostingamigo@gmail.com', '2147483647', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum', '2023-06-18 10:03:07', 1);
 
 -- --------------------------------------------------------
 
@@ -148,7 +148,7 @@ CREATE TABLE `tblpages` (
 --
 
 INSERT INTO `tblpages` (`id`, `PageName`, `type`, `detail`) VALUES
-(1, 'Terms and Conditions', 'terms', '<P align=justify><FONT size=2><STRONG><FONT color=#990000>(1) ACCEPTANCE OF TERMS</FONT><BR><BR></STRONG>Welcome to Yahoo! India. 1Yahoo Web Services India Private Limited Yahoo\", \"we\" or \"us\" as the case may be) provides the Service (defined below) to you, subject to the following Terms of Service (\"TOS\"), which may be updated by us from time to time without notice to you. You can review the most current version of the TOS at any time at: <A href=\"http://in.docs.yahoo.com/info/terms/\">http://in.docs.yahoo.com/info/terms/</A>. In addition, when using particular Yahoo services or third party services, you and Yahoo shall be subject to any posted guidelines or rules applicable to such services which may be posted from time to time. All such guidelines or rules, which maybe subject to change, are hereby incorporated by reference into the TOS. In most cases the guides and rules are specific to a particular part of the Service and will assist you in applying the TOS to that part, but to the extent of any inconsistency between the TOS and any guide or rule, the TOS will prevail. We may also offer other services from time to time that are governed by different Terms of Services, in which case the TOS do not apply to such other services if and to the extent expressly excluded by such different Terms of Services. Yahoo also may offer other services from time to time that are governed by different Terms of Services. These TOS do not apply to such other services that are governed by different Terms of Service. </FONT></P>\r\n<P align=justify><FONT size=2>Welcome to Yahoo! India. Yahoo Web Services India Private Limited Yahoo\", \"we\" or \"us\" as the case may be) provides the Service (defined below) to you, subject to the following Terms of Service (\"TOS\"), which may be updated by us from time to time without notice to you. You can review the most current version of the TOS at any time at: </FONT><A href=\"http://in.docs.yahoo.com/info/terms/\"><FONT size=2>http://in.docs.yahoo.com/info/terms/</FONT></A><FONT size=2>. In addition, when using particular Yahoo services or third party services, you and Yahoo shall be subject to any posted guidelines or rules applicable to such services which may be posted from time to time. All such guidelines or rules, which maybe subject to change, are hereby incorporated by reference into the TOS. In most cases the guides and rules are specific to a particular part of the Service and will assist you in applying the TOS to that part, but to the extent of any inconsistency between the TOS and any guide or rule, the TOS will prevail. We may also offer other services from time to time that are governed by different Terms of Services, in which case the TOS do not apply to such other services if and to the extent expressly excluded by such different Terms of Services. Yahoo also may offer other services from time to time that are governed by different Terms of Services. These TOS do not apply to such other services that are governed by different Terms of Service. </FONT></P>\r\n<P align=justify><FONT size=2>Welcome to Yahoo! India. Yahoo Web Services India Private Limited Yahoo\", \"we\" or \"us\" as the case may be) provides the Service (defined below) to you, subject to the following Terms of Service (\"TOS\"), which may be updated by us from time to time without notice to you. You can review the most current version of the TOS at any time at: </FONT><A href=\"http://in.docs.yahoo.com/info/terms/\"><FONT size=2>http://in.docs.yahoo.com/info/terms/</FONT></A><FONT size=2>. In addition, when using particular Yahoo services or third party services, you and Yahoo shall be subject to any posted guidelines or rules applicable to such services which may be posted from time to time. All such guidelines or rules, which maybe subject to change, are hereby incorporated by reference into the TOS. In most cases the guides and rules are specific to a particular part of the Service and will assist you in applying the TOS to that part, but to the extent of any inconsistency between the TOS and any guide or rule, the TOS will prevail. We may also offer other services from time to time that are governed by different Terms of Services, in which case the TOS do not apply to such other services if and to the extent expressly excluded by such different Terms of Services. Yahoo also may offer other services from time to time that are governed by different Terms of Services. These TOS do not apply to such other services that are governed by different Terms of Service. </FONT></P>'),
+(1, 'Terms and Conditions', 'terms', '<P align=justify><FONT size=2><STRONG><FONT color=#990000>(1) ACCEPTANCE OF TERMS</FONT><BR><BR></STRONG>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et libero nec augue venenatis tempor. Praesent elementum justo nisi, nec ornare libero commodo a. Phasellus a auctor nisl, eu ultricies mauris. Nulla facilisi. Suspendisse urna urna, feugiat ut ante sit amet, finibus ullamcorper mauris. Curabitur lobortis ultrices eros. In ultricies, erat vel tempor auctor, massa quam tempor justo, nec dignissim diam tellus sit amet turpis.\r\n\r\nNam vitae sagittis purus. Vestibulum ut tempor nulla. Morbi ullamcorper vulputate commodo. Praesent ac suscipit elit. Cras non efficitur dolor. Aliquam at lacus non nunc lobortis imperdiet feugiat placerat lorem. Nulla sed enim augue. Morbi vulputate, ipsum et ultrices consectetur, lacus leo vulputate ante, ac dictum nibh mi vel urna. Aliquam a venenatis odio. Curabitur consequat nibh metus. Morbi sit amet tristique lectus. Donec sit amet euismod tellus, vel semper odio. Mauris at tellus nulla. Nam ut tempus lorem, quis gravida lacus.\r\n\r\nClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi porttitor sit amet nibh in hendrerit. Nulla pharetra convallis cursus. Suspendisse lacus felis, posuere ut eleifend at, condimentum vitae turpis. Suspendisse mollis ipsum neque, vitae tincidunt augue posuere in. Aenean mollis tempor luctus. Vivamus eu metus sit amet massa facilisis pellentesque vitae in massa.\r\n\r\nFusce condimentum ullamcorper porttitor. Aliquam malesuada tincidunt nunc in suscipit. Nam ut lacus et ipsum luctus placerat bibendum ac felis. Mauris vestibulum volutpat sem eu ullamcorper. Nulla convallis ex ac neque placerat, nec tristique quam pharetra. Sed volutpat fringilla magna id convallis. Nunc eget dignissim turpis. Donec vulputate, ligula ac viverra consequat, nisl erat bibendum ipsum, ut interdum metus urna at ex.\r\n\r\nPellentesque id leo interdum, pulvinar lorem quis, mattis risus. Praesent rutrum feugiat dolor in consectetur. In lorem augue, placerat eu dolor nec, rhoncus blandit ex. Duis quis pellentesque leo. Nulla id vulputate orci, sed rhoncus lacus. Suspendisse vel nisl laoreet, facilisis elit vel, feugiat felis. Quisque non sem mollis, commodo sem eu, dictum elit. Fusce et lorem ut sem fringilla suscipit. Cras pellentesque libero non orci posuere, ut congue velit venenatis. Integer diam ante, vestibulum eu ornare et, laoreet quis lorem. </FONT></P>'),
 (2, 'Privacy Policy', 'privacy', '<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</span>'),
 (3, 'About Us ', 'aboutus', '<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat</span>'),
 (11, 'FAQs', 'faqs', '																														<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify;\">Address------Test &nbsp; &nbsp;dsfdsfds</span>');
@@ -170,7 +170,7 @@ CREATE TABLE `tblsubscribers` (
 --
 
 INSERT INTO `tblsubscribers` (`id`, `SubscriberEmail`, `PostingDate`) VALUES
-(1, 'anuj.lpu1@gmail.com', '2017-06-22 16:35:32');
+(1, 'anuj.lpu1@gmail.com', '2023-06-22 16:35:32');
 
 -- --------------------------------------------------------
 
@@ -191,8 +191,8 @@ CREATE TABLE `tbltestimonial` (
 --
 
 INSERT INTO `tbltestimonial` (`id`, `UserEmail`, `Testimonial`, `PostingDate`, `status`) VALUES
-(1, 'test@gmail.com', 'Test Test', '2017-06-18 07:44:31', 1),
-(2, 'test@gmail.com', '\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilis', '2017-06-18 07:46:05', 1);
+(1, 'fatma.boussarsar.01@gmail.com', 'Test Test', '2023-06-18 07:44:31', 1),
+(2, 'fatma.boussarsar.01@gmail.com', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilis', '2022-06-18 07:46:05', 1);
 
 -- --------------------------------------------------------
 
@@ -219,10 +219,10 @@ CREATE TABLE `tblusers` (
 --
 
 INSERT INTO `tblusers` (`id`, `FullName`, `EmailId`, `Password`, `ContactNo`, `dob`, `Address`, `City`, `Country`, `RegDate`, `UpdationDate`) VALUES
-(1, 'Harry Den', 'demo@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2147483647', NULL, NULL, NULL, NULL, '2017-06-17 19:59:27', '2017-06-26 21:02:58'),
-(2, 'AK', 'anuj@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '8285703354', NULL, NULL, NULL, NULL, '2017-06-17 20:00:49', '2017-06-26 21:03:09'),
-(3, 'Mark K', 'webhostingamigo@gmail.com', 'f09df7868d52e12bba658982dbd79821', '09999857868', '03/02/1990', 'PKL', 'PKL', 'PKL', '2017-06-17 20:01:43', '2017-06-17 21:07:41'),
-(4, 'Tom K', 'test@gmail.com', '5c428d8875d2948607f3e3fe134d71b4', '9999857868', '', 'PKL', 'XYZ', 'XYZ', '2017-06-17 20:03:36', '2017-06-26 19:18:14');
+(1, 'Harry Den', 'demo@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2147483647', NULL, NULL, NULL, NULL, '2022-06-17 19:59:27', '2022-06-26 21:02:58'),
+(2, 'AK', 'anuj@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '8285703354', NULL, NULL, NULL, NULL, '2022-06-17 20:00:49', '2022-06-26 21:03:09'),
+(3, 'Mark K', 'webhostingamigo@gmail.com', 'f09df7868d52e12bba658982dbd79821', '09999857868', '03/02/1990', 'PKL', 'PKL', 'PKL', '2022-06-17 20:01:43', '2022-06-17 21:07:41'),
+(4, 'Fatma Boussarsar\r\n', 'fatma.boussarsar.01@gmail.com', '5c428d8875d2948607f3e3fe134d71b4', '9999857868', '', 'PKL', 'XYZ', 'XYZ', '2022-06-17 20:03:36', '2023-01-20 22:24:19');
 
 -- --------------------------------------------------------
 
@@ -265,10 +265,10 @@ CREATE TABLE `tblvehicles` (
 --
 
 INSERT INTO `tblvehicles` (`id`, `VehiclesTitle`, `VehiclesBrand`, `VehiclesOverview`, `PricePerDay`, `FuelType`, `ModelYear`, `SeatingCapacity`, `Vimage1`, `Vimage2`, `Vimage3`, `Vimage4`, `Vimage5`, `AirConditioner`, `PowerDoorLocks`, `AntiLockBrakingSystem`, `BrakeAssist`, `PowerSteering`, `DriverAirbag`, `PassengerAirbag`, `PowerWindows`, `CDPlayer`, `CentralLocking`, `CrashSensor`, `LeatherSeats`, `RegDate`, `UpdationDate`) VALUES
-(1, 'PREMIER VERTICAL KNEE RAISE', 1, 'PREMIER VERTICAL KNEE RAISE', 350, 'Brand New', 2010, 1, 'img1.jpg', 'img2.jpg', 'img3.png', 'img4.png', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, '2017-06-19 11:46:23', '2023-01-20 21:11:33'),
-(2, 'SIGNATURE ELITE LINEAR LEG PRESS', 1, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit. ', 400, '', 2015, 4, 'img4.jpg', 'img5.jpg', 'img6.jpg', 'img1.jpg', '', 1, 1, 1, 1, 1, 1, 1, NULL, 1, 1, NULL, NULL, '2017-06-19 16:16:17', '2023-01-20 21:12:52'),
-(3, 'SIGNATURE SERIES MJ8 JUNGLE GYM', 1, 'SIGNATURE SERIES MJ8 JUNGLE GYM', 563, 'CNG', 2012, 5, 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', '', 1, 1, 1, 1, 1, 1, NULL, 1, 1, NULL, NULL, NULL, '2017-06-19 16:18:20', '2023-01-20 21:17:04'),
-(4, 'SELECT ASSISTED CHIN-UP DIP', 1, 'SELECT ASSISTED CHIN-UP DIP', 5636, 'CNG', 2012, 5, 'img6.jpg', 'img5.jpg', 'img4.jpg', 'img1.jpg', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, NULL, NULL, NULL, '2017-06-19 16:18:43', '2023-01-20 21:18:08');
+(1, 'PREMIER VERTICAL KNEE RAISE', 1, 'PREMIER VERTICAL KNEE RAISE', 350, 'Brand New', 2010, 1, 'img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, '2022-06-19 11:46:23', '2023-01-20 22:24:37'),
+(2, 'SIGNATURE ELITE LINEAR LEG PRESS', 1, 'SIGNATURE ELITE LINEAR LEG PRESS', 400, 'Brand New', 2015, 1, 'img4.jpg', 'img6.jpg', 'img6.jpg', 'img1.jpg', '', 1, 1, 1, 1, 1, 1, 1, NULL, 1, 1, NULL, NULL, '2022-06-19 16:16:17', '2023-01-20 22:24:49'),
+(3, 'SIGNATURE SERIES MJ8 JUNGLE GYM', 1, 'SIGNATURE SERIES MJ8 JUNGLE GYM', 563, 'Brand New', 2012, 1, 'img2.jpg', 'img3.jpg', 'img4.jpg', 'img5.jpg', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, NULL, NULL, NULL, '2022-06-19 16:18:20', '2023-01-20 22:25:01'),
+(4, 'SELECT ASSISTED CHIN-UP DIP', 1, 'SELECT ASSISTED CHIN-UP DIP', 563, 'Brand New', 2012, 1, 'img6.jpg', 'img5.jpg', 'img4.jpg', 'img1.jpg', '', 1, 1, 1, 1, 1, 1, 1, 1, 1, NULL, NULL, NULL, '2022-06-19 16:18:43', '2023-01-20 22:25:13');
 
 --
 -- Indexes for dumped tables
